@@ -1,0 +1,15 @@
+{
+  "name": "norris.mvc",
+  "version": "1.0.0",
+  "description": "norris api implemented with .net core 2 and mvc",
+  "main": "site.js",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

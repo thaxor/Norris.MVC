@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@section Scripts{
+    <script>
+        $(function () {
+            norris.load();
+        });
+    </script>
+}
+<div class="row">
+    <div class="col-md-12">
+        <h2>Norris.mvc</h2>
+    </div>
+</div>
+<div class="row">
+
+    <div class="col-md-4">
+        <h2>Categories</h2>
+        <div id="jokeCategories">
+            <div class="loader"></div>
+        </div>
+        <div>
+            <p id="categoryJoke" class="lead">
+            </p>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <h2>Random Joke </h2>
+        <input id="randomJokeButton" class="btn btn-secondary" type="button" value="get another joke" />
+        <div id="randomJoke">
+            <div class="loader"></div>
+        </div>
+
+    </div>
+
+</div>

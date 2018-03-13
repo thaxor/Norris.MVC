@@ -1,0 +1,11 @@
+﻿@{
+    Layout = null;
+}
+
+@model List<string>
+
+@foreach (var category in Model)
+{
+    <input class="btn btn-primary jokeCategoryButton" type="button" value="@category">
+}
+

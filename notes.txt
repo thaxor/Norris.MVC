@@ -1,0 +1,6 @@
+https://api.chucknorris.io/
+
+http://json2csharp.com/
+
+https://andrewlock.net/model-binding-json-posts-in-asp-net-core/
+https://exceptionnotfound.net/asp-net-core-demystified-model-binding-in-mvc/
