@@ -18,7 +18,7 @@ norris = {
         },
     },
 
-    populateJokeCategories: function (response) {
+    showJokeCategories: function (response) {
         //{ First: "first", Last: "last" }
         axios.post('/Home/JokeCategories', response.data)
             .then(function (response) {
@@ -44,7 +44,7 @@ norris = {
     },
 
     displayJokeCategories: function () {
-        norris.api.getJokeCategories().then(result => norris.populateJokeCategories(result));
+        norris.api.getJokeCategories().then(result => norris.showJokeCategories(result));
     },
 
     displayRandomJoke: function () {
